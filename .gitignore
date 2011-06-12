@@ -1,0 +1,9 @@
+.idea
+.idea_modules
+project/boot
+output.log
+project/plugins/project/target
+project/plugins/target
+project/project/boot
+project/target
+target
