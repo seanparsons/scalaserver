@@ -8,6 +8,7 @@ import java.lang.Thread
 import java.net.{Socket, ServerSocket}
 import java.io.{BufferedReader, InputStreamReader}
 
+/*
 object HttpTestServer extends App {
   val testHttpHandler = new HttpRequestHandler {
     def handle(socket: Socket, request: HttpRequest) = {
@@ -43,6 +44,7 @@ object HttpTestServer extends App {
   serverSocket.close()
   println("Stopped")
 }
+*/
 
 case class IOServerActorPool(handler: SocketHandler) extends Actor
                                                             with DefaultActorPool
